@@ -1,0 +1,18 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#myULContainer {
+    list-style: none;
+    -webkit-padding-start: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 1em;
+    border: 1px solid #000;
+    overflow-y: auto;
+    width: 100%;
+    background: #333;
+    color: rgb(128, 120, 120);
+}
