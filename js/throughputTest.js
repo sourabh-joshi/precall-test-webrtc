@@ -15,8 +15,8 @@ function ThroughputTest(doneCallback) {
 	var samplePacket = "";
 	for (var i = 0; i !== 1024; ++i) {
 		samplePacket += "h";
-    }
-    
+	}
+
 	var maxNumberOfPacketsToSend = 100;
 	var bytesToKeepBuffered = 1024 * maxNumberOfPacketsToSend;
 	var lastBitrateMeasureTime;

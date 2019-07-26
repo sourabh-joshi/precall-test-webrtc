@@ -7,10 +7,10 @@ var internetConnectivityTest = {
 };
 
 function checkInternet(doneCallback) {
-    if (iceServers.length < 1) {
-        console.error("Please add TURN/STUN urls in config to continue tests.")
-        doneCallback(true); //Abort Tests
-    }
+	if (iceServers.length < 1) {
+		console.error("Please add TURN/STUN urls in config to continue tests.");
+		doneCallback(true); //Abort Tests
+	}
 	var config = { iceServers: iceServers };
 	var pc;
 	pc = new RTCPeerConnection(config);
