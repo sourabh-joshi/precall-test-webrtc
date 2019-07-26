@@ -1,5 +1,8 @@
 # WebRTC Precall Test
 
+## Usage
+Clone this repo and add iceserver urls in config.js and then simply spin it up in your favourite web server and you are all set!
+
 ## Tests In WebRTC Precall
 + Browser WebRTC Support
 + Internet Connectivity
