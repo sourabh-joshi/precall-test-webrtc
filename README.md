@@ -66,4 +66,4 @@ For this to work in production properly we need to get iceserver urls dynamicall
 ## Further Improvements
 + Add support to get TURN urls dynamically
 + Also determine the number of streams the user can support to publish and subscribe with peer to peer and as well as when  using a media server
-+ Calculate MOS
++ Calculate MOS (Mean Opinion Score)
